@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: Poppins-BoldItalic;
+  src: url(assets/fonts/Poppins-BoldItalic.ttf);
+}
+@font-face {
+  font-family: Poppins-ExtraBold;
+  src: url(assets/fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Poppins-ExtraBoldItalic;
+  src: url(assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: Poppins-Italic;
+  src: url(assets/fonts/Poppins-Italic.ttf);
+}
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(assets/fonts/Poppins-Bold.ttf);
+}
+:root {
+  /* Theme color */
+  --purple: hsl(259, 100%, 65%);
+  --light-red: hsl(0, 100%, 67%);
+  --white: hsl(0, 0%, 100%);
+  --Off-white: hsl(0, 0%, 94%);
+  --Light-grey: hsl(0, 0%, 86%);
+  --Smokey-grey: hsl(0, 1%, 44%);
+  --Off-black: hsl(0, 0%, 8%);
+
+  /* Margins */
+  --marginBig: 24px;
+  --marginMed: 12px;
+  --marginSmall: 6px;
+  --marginTiny: 3px;
+  --noMargin: 0;
+  /* Paddings */
+  --paddingBig: 24px;
+  --paddingMed: 12px;
+  --paddingSmall: 6px;
+  --paddingTiny: 3px;
+  --noPadding: 0;
+  /* Shadows */
+  --sunlightBig: 0 0 38px rgba(0, 0, 0, 0.3);
+  --sunlightMed: 0 0 28px rgba(0, 0, 0, 0.25);
+  --sunlightSmall: 0 0 20px rgba(0, 0, 0, 0.19);
+  --sunlightTiny: 0 0 6px rgba(0, 0, 0, 0.16);
+  --spotlightBig: 0 15px 12px rgba(0, 0, 0, 0.22);
+  --spotlightMed: 0 10px 10px rgba(0, 0, 0, 0.22);
+  --spotlightSmall: 0 6px 6px rgba(0, 0, 0, 0.23);
+  --spotlightTiny: 0 1px 2px rgba(0, 0, 0, 0.24);
+  /* Border radius */
+  --radiusFull: 100%;
+  --radiusExtra: 32px;
+  --radiusBig: 16px;
+  --radiusMed: 8px;
+  --radiusSmall: 4px;
+  --radiusTiny: 2px;
+  /* Transition */
+  --fast: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  /* Other colors */
+  --darkred: #c0392b;
+  --red: #e74c3c;
+  --orange: #f39c12;
+  --green: #16a085;
+  --darkblue: #2c3e50;
+  --blue: #2980b9;
+  --lightblue: #3498db;
+  --cloud: #ecf9f1;
+  --silver: #bdc3c7;
+}
